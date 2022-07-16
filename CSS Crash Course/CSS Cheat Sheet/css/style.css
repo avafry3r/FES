@@ -1,0 +1,48 @@
+/*
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*/
+
+body{
+    background-color:#a22559;
+    color: #fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    /*same as above*/
+    font: normal 18px Arial, Helvetica, sans-serif;
+    /*em for line height*/
+    line-height: 1em;
+    margin: 0;
+    /*margin can be written like NESW and NS EW
+      e.g. margin: 5px 10px 5px 10px
+           margin: 5px 10px
+           
+           Same with padding*/
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.italics{
+    background-color: #333;
+
+    border: 5px red solid;
+    border-width: 3px;
+
+    padding-top: 20px;
+}
+
+.boxy h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
