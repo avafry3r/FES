@@ -37,7 +37,28 @@ body{
     border: 5px red solid;
     border-width: 3px;
 
-    padding-top: 20px;
+  padding: 20px;
+
+  margin: 20px 0;
+}
+
+.box-1 h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.box-2 {
+  border: 3px dotted #333;
+  padding: 20px;
+  margin: 0px;
+}
+
+.categories {
+  border: 3px;
+  border-color: #333;
+  padding: 0px;
+  border-radius: 15px;
 }
 
 .boxy h1{
